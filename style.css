@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+
+#background-img {
+    background-position: center;
+    background-image: url(https://www.dropbox.com/scl/fi/n7ubagh1xldbjrcbmeqo3/Faye-Webster.png?rlkey=mxkqcqt6lx22penodx7tmi6ij&dl=1);
+    filter: blur(10px);
+}

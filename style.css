@@ -11,15 +11,11 @@ html {
 a {
     text-decoration: none;
     font-family: 'Rowdies';
-    filter: blur(2px);
-    transition: all 1s ease-out;
     color: rgb(rgb(26, 7, 7), rgb(0, 0, 0), rgb(0, 0, 0))
 }
 
 a:hover {
-    filter: blur(0px);
-    transition-duration: 1s;
-    font-size: 20px;
+
 }
 
 #right_blocks_info_bottom {
@@ -40,4 +36,12 @@ a:hover {
     border: 1px solid transparent;
     margin-top: 12px;
     display: inline-flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px
+}
+
+#song_img {
+    height: auto;
+    width: auto;
 }

@@ -3,8 +3,6 @@
 html {
     font-family: 'Rowdies';
     background-size: cover;
-    backdrop-filter: blur(100px);
-    background-image: url(https://www.dropbox.com/scl/fi/n7ubagh1xldbjrcbmeqo3/Faye-Webster.png?rlkey=mxkqcqt6lx22penodx7tmi6ij&dl=1);
 }
 
 a {
@@ -12,6 +10,7 @@ a {
     font-family: 'Rowdies';
     color: rgb(rgb(26, 7, 7), rgb(0, 0, 0), rgb(0, 0, 0))
 }
+
 /* Song information | ARTIST / SONG NAME */
 #song_block {
     display: flex;
@@ -54,7 +53,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
-
+    text-transform: uppercase;
 }
 
 .rightbtm {

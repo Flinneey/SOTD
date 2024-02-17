@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
+/* Presets */
+
 html {
     font-family: 'Rowdies';
-    background-size: cover;
+}
+
+html::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Faye-Webster.png);
+    filter: blur(50px);
+    z-index: -1;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -12,6 +26,7 @@ a {
 }
 
 /* Song information | ARTIST / SONG NAME */
+
 #song_block {
     display: flex;
     align-items: center;
@@ -47,20 +62,23 @@ a {
 }
 
 /*Bottom part of site*/
+
 #right_blocks_info_bottom {
-    text-align: center;
-    display: inline-block;
+    margin-top: 600px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
     text-transform: uppercase;
+    float: right;
 }
 
-.rightbtm {
+.rightbtm,
+.rightbtmlink {
     color: white;
     border: 4px solid transparent;
     border-radius: 20px;
     background-color: black;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* Twitter Link */

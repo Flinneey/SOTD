@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 /* Presets */
@@ -9,8 +10,8 @@ html {
 html::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: center;
+    left: center;
     width: 100%;
     height: 100%;
     background-image: url(./Faye-Webster.png);
@@ -25,14 +26,15 @@ a {
     color: rgb(rgb(26, 7, 7), rgb(0, 0, 0), rgb(0, 0, 0))
 }
 
-/* Song information | ARTIST / SONG NAME */
+/* Song information | SOTD */
 
 #song_block {
     display: flex;
-    align-items: center;
+    align-items: right;
     font-family: 'Rowdies';
-    justify-content: center;
+    justify-content: right;
     text-align: center;
+    margin-right: 500px;
 }
 
 .song_info {
@@ -61,12 +63,30 @@ a {
     transform: scale(1.2);
 }
 
+/*Song information | AOTM*/
+
+#album_img {
+    padding: 10px;
+    width: 300px;
+    border-radius: 50px;
+    border: 10px solid transparent;
+    transition: transform 0.3s ease;
+}
+
+#album_img:hover {
+    transform: scale(1.2);
+}
+
+
+
 /*Bottom part of site*/
 
 #right_blocks_info_bottom {
-    margin-top: 600px;
+    margin-top: 300px;
+
     padding-left: 10px;
     padding-right: 10px;
+
     text-transform: uppercase;
     float: right;
 }
@@ -92,5 +112,6 @@ a {
 }
 
 .rightbtmlink:hover {
-    color: rgba(240, 27, 27, 0.849);
+    color: rgba(255, 255, 255, 0.849);
+    background-color: gray;
 }

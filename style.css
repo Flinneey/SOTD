@@ -26,9 +26,17 @@ a {
     color: rgb(rgb(26, 7, 7), rgb(0, 0, 0), rgb(0, 0, 0))
 }
 
+/* Landing Page / Opening */
+
+#LandingPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Song information | SOTD */
 
-#song_block {
+#SOTD {
     display: flex;
     align-items: right;
     font-family: 'Rowdies';
@@ -64,6 +72,16 @@ a {
 }
 
 /*Song information | AOTM*/
+
+#AOTM {
+    display: grid;
+    align-items: right;
+    font-family: 'Rowdies';
+    justify-content: right;
+    text-align: center;
+    margin-right: 500px;
+}
+
 
 #album_img {
     padding: 10px;

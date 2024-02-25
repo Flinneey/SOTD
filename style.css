@@ -28,6 +28,11 @@ a {
 
 /* Landing Page / Opening */
 
+.toptxt {
+    display: block;
+    align-items: center;
+}
+
 #LandingPage {
     display: flex;
     align-items: center;

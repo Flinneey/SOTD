@@ -37,7 +37,7 @@ a {
     left: center;
     width: 100%;
     height: 100%;
-    background-image: url(./SOTD.png);
+    background-image: url(?);
     z-index: -1;
     background-repeat: no-repeat;
 }

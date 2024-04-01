@@ -77,7 +77,6 @@ a {
     border: 5px solid transparent;
     background-color: red;
     border-radius: 10px;
-    margin-bottom: 10px;
     transition: transform 0.3s ease;
 }
 
